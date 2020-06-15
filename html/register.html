@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="styleregister.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -19,46 +19,60 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-
+    <script src="register.js"></script>
 </head>
 
 <body>
 
-    <img class="side" src="./img/login.png" alt="">
+    <img class="side" src="./img/register.png" alt="">
 
     <p class="facepage">facepage</p>
 
 
-    <div class="dform">
+    <div class="dform" id="styled">
         <form class="form">
-            <label for="heading">Login</label>
-            <br>
-            <br>
-
-            <label for="email">Email</label><br>
-            <input type="text" id="email name=" email>
+            <label for="heading">Register</label>
             <br>
             
-            <label for="Password">Password</label><br>
-            <input type="text" id="Password">
-            <label for="fg">Forgot password?</label>
+            <label for="First">First Name</label><br>
+            <input type="text" id="fname" email>
+          
+           <br>
+           
+            <label for="Lirst">Last Name</label><br>
+            <input type="text" id= lname>
             <br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email name">
+            <br>
+            <label for="Password">Password</label><br>
+            <input type="password" id="Password" >
+            
+            <br>
+            <label for="Password">Confirm Password</label><br>
+            <input type="password" id="CPassword">
+           <br>
+           <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check" onclick="show()">
+            <label class="form-check-label" for="Password">Show password</label>
+          </div>
             <br>
 
             <div class="login">
                 <center> <button type="button" class="loginstyle">Login</button></center>
             </div>
            
-           <center> <label for="donthave">Don't have an account? </label><br> <a class="nav-link"
-                href="https://www.google.com/drive/">Register</a></center>
+           <center> <label for="have">Already have an account?</label><br> <a class="nav-link"
+                href="login.html">Login</a></center>
         
         </form>
     </div>
   
-        <p class="Content">Connect with </p>
-        <p class="c2">faces </p>
-        <p class="c3">all over</p>
-        <p class="c4">the world</p>
+        <p class="Content">Create an </p>
+        <p class="c4">account it's</p>
+        <p class="c2">free</p>
+        
+      
     
 </body>
 

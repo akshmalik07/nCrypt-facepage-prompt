@@ -1,0 +1,26 @@
+{
+  "name": "ncrypt-facepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshmalik07/nCrypt-facepage-prompt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshmalik07/nCrypt-facepage-prompt/issues"
+  },
+  "homepage": "https://github.com/akshmalik07/nCrypt-facepage-prompt#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^14.4.0",
+    "nodemon": "^2.0.4",
+    "serve-static": "^1.14.1"
+  }
+}

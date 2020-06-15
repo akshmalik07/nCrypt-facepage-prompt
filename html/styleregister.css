@@ -1,0 +1,318 @@
+@media only screen and (min-width: 800px) {
+  #span {
+    display: none;
+  }
+  body {
+    background-color: #ffffff !important;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+  .c4 {
+    font-family: montserrat;
+    font-size: 2em;
+    color: black;
+    position: absolute;
+    top: 20vh;
+    left: 40vw;
+  }
+
+  .c2 {
+    font-family: montserrat;
+    font-size: 2em;
+    color: #ff4c4c;
+    position: absolute;
+    top: 25vh;
+    left: 40vw;
+  }
+  .Content {
+    font-family: montserrat;
+    font-size: 2em;
+    color: black;
+    position: absolute;
+    top: 15vh;
+    left: 40vw;
+  }
+  @font-face {
+    font-family: montserrat;
+    src: url(MontserratAlternates-Bold.ttf);
+  }
+  .facepage {
+    font-family: montserrat;
+    font-size: 2em;
+    color: #ff4c4c;
+    position: absolute;
+    top: 2vh;
+    left: 8vw;
+  }
+  .nav-link {
+    font-family: Montserrat;
+    font-size: 10px;
+    color: #ff4c4c;
+    left: 22%;
+    bottom: 4.7vh;
+    position: relative;
+  }
+  label[for="have"] {
+    font-family: Montserrat;
+    font-size: 10px;
+    color: black;
+    position: relative;
+    left: -2vw;
+  }
+
+  label[for="heading"] {
+    font-family: Montserrat;
+    font-size: 2em;
+    color: #ff4c4c;
+    position: relative;
+    top: -5vh;
+  }
+  .dform {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    margin: 0px 0;
+    box-shadow: 1.5px 1.5px #888888;
+    width: 30vw;
+    top: 12vh;
+    left: 10vw;
+    height: 85vh;
+    width: 25vw;
+    position: relative;
+  }
+
+  input[type="text"],
+  select {
+    width: 20vw;
+    height: 3.5vh;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 1.5px 1.5px #888888;
+  }
+
+  input[type="password"], 
+  select {
+    width: 20vw;
+    height: 3.5vh;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 1.5px 1.5px #888888;
+  }
+
+  input[type="email"],
+  select {
+    width: 20vw;
+    height: 3.5vh;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 1.5px 1.5px #888888;
+  }
+  
+
+  .field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    bottom: 20vh;
+  }
+
+  .loginstyle {
+    width: 20vw;
+    height: 6vh;
+    border: none;
+    border-radius: 7px;
+    color: #ffffff;
+    background-color: #ff4c4c;
+    display: inline-block;
+    font-family: Montserrat;
+  }
+
+  .side {
+    height: 50vh;
+    width: 37w;
+    position: absolute;
+    translate: (-50%);
+    top: 40%;
+    left: 34%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  html,
+  body {
+    background-color: #ffffff !important;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+  .facepage {
+    font-family: montserrat;
+    font-size: 2em;
+    color: #ff4c4c;
+    position: absolute;
+    top: 2vh;
+    left: 30vw;
+  }
+  label[for="have"] {
+    font-family: Montserrat;
+    font-size: 10px;
+    color: black;
+    position: relative;
+    bottom: 0vh;
+    left: -5%;
+  }
+  label[for="fg"] {
+    font-family: Montserrat;
+    font-size: 10px;
+    color: #ff4c4c;
+    position: relative;
+    bottom: 3vh;
+  }
+  label[for="heading"] {
+    font-family: Montserrat;
+    font-size: 2em;
+    color: #ff4c4c;
+    position: relative;
+    top: 0vh;
+  }
+  .dform {
+    border-radius: 20px;
+
+    padding: 40px;
+    margin: 8px 0;
+    transform: translate(-50%);
+    border: none;
+
+    left: 50vw;
+    height: auto;
+    width: 90vw;
+    position: relative;
+    top: 40vh;
+  }
+  
+  input[type="text"],
+  select {
+    width: 70vw;
+    height: 4vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    box-shadow: 1px 1px #888888;
+  }
+  input[type="email"],
+  select {
+    width: 70vw;
+    height: 4vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    box-shadow: 1px 1px #888888;
+  }
+  input[type="password"],
+  select {
+    width: 70vw;
+    height: 4vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    box-shadow: 1px 1px #888888;
+  }
+  .c4 {
+    position: absolute;
+    top: 17vh;
+    left: 10vw;
+
+    display: inline-block;
+    font-size: 1.4em;
+    color: black;
+    font-family: montserrat;
+  }
+
+  .c2 {
+    font-family: montserrat;
+    font-size: 1.4em;
+    color: #ff4c4c;
+    position: absolute;
+    top: 22vh;
+    left: 10vw;
+  }
+  .Content {
+    font-family: montserrat;
+    font-size: 1.4em;
+    color: black;
+    position: absolute;
+    top: 12vh;
+    left: 10vw;
+  }
+  @font-face {
+    font-family: montserrat;
+    src: url(MontserratAlternates-Bold.ttf);
+  }
+
+  .nav-link {
+    font-family: Montserrat;
+    font-size: 10px;
+    color: #ff4c4c;
+    translate: (50%);
+    position: relative;
+    left: 30%;
+    bottom: 5.5vh;
+  }
+  .loginstyle {
+    width: 70vw;
+    height: 7vh;
+    border: none;
+    border-radius: 7px;
+    color: #ffffff;
+    background-color: #ff4c4c;
+    display: inline-block;
+    font-family: Montserrat;
+    bottom: 0vh;
+
+    translate: (50%);
+    position: relative;
+  }
+
+  .side {
+    height: 27vh;
+    width: 60vw;
+    position: absolute;
+    translate: (-50%);
+    top: 20%;
+    left: 40%;
+  }
+}
