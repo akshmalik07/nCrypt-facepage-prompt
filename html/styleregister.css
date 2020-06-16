@@ -53,8 +53,8 @@
     font-family: Montserrat;
     font-size: 10px;
     color: #ff4c4c;
-    left: 22%;
-    bottom: 4.7vh;
+    left: 25%;
+    bottom: 2.5vh;
     position: relative;
   }
   label[for="have"] {
@@ -63,6 +63,7 @@
     color: black;
     position: relative;
     left: -2vw;
+    bottom: -2vh;
   }
 
   label[for="heading"] {
@@ -135,7 +136,7 @@
     bottom: 20vh;
   }
 
-  .loginstyle {
+  .Register {
     width: 20vw;
     height: 6vh;
     border: none;
@@ -289,10 +290,10 @@
     color: #ff4c4c;
     translate: (50%);
     position: relative;
-    left: 30%;
-    bottom: 5.5vh;
+    left: 35%;
+    bottom: 5vh;
   }
-  .loginstyle {
+  .Register {
     width: 70vw;
     height: 7vh;
     border: none;
@@ -309,10 +310,10 @@
 
   .side {
     height: 27vh;
-    width: 60vw;
+    width: 70vw;
     position: absolute;
     translate: (-50%);
     top: 20%;
-    left: 40%;
+    left: 35%;
   }
 }
